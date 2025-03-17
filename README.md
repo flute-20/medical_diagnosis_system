@@ -37,7 +37,7 @@ Clone the Repository
 bash
 Copy
 Edit
-git clone https://github.com/your-username/Medical_Diagnosis.git
+git clone https://github.com/flute-20/Medical_Diagnosis.git
 Create a Virtual Environment
 bash
 Copy
