@@ -1,0 +1,163 @@
+/* 🌟 Background Styling */
+body {
+    background: url('https://img.freepik.com/free-vector/medical-technology-science-background-vector-blue-with-blank-space_53876-117739.jpg') 
+                center/cover fixed no-repeat;
+    font-family: 'Arial', sans-serif;
+    color: hsl(0, 0%, 100%);
+    margin: 0;
+    padding: 0;
+}
+
+/* 🌟 Main Container Styling */
+.stApp {
+    background-color: transparent;
+    color: white;
+}
+
+/* 🌟 Top Menu Bar Styling */
+header[data-testid="stHeader"] {
+    background-color: rgba(0, 0, 30, 0.8) !important;
+    padding: 10px;
+    border-bottom: 2px solid #1e90ff;
+}
+
+header[data-testid="stHeader"] h1 {
+    font-size: 24px;
+    color: #ffffff;
+    text-align: left;
+}
+
+/* 🌟 Navigation Box Styling */
+div[data-testid="stHorizontalBlock"] {
+    background-color: rgba(18, 18, 46, 0.8) !important; /* Dark Blue Transparent */
+    border-radius: 12px;
+    padding: 12px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.5); /* Soft Shadow */
+    border: 1px solid rgba(255, 255, 255, 0.3); /* Subtle Border */
+}
+
+/* 🌟 Menu Item Styling */
+div[data-testid="stHorizontalBlock"] button {
+    background-color: transparent;
+    color: #fbf4f4;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+/* 🌟 Active Menu Item */
+div[data-testid="stHorizontalBlock"] button[aria-selected="true"] {
+    background-color: #1e90ff !important; /* Dodger Blue */
+    color: #ffffff !important;
+    border: 2px solid #ffffff !important;
+    border-radius: 8px;
+    font-weight: bold;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* 🌟 Hover Effect */
+div[data-testid="stHorizontalBlock"] button:hover {
+    background-color: #87cefa !important; /* Light Blue */
+    color: #000 !important;
+    transform: scale(1.05);
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+/* 🌟 Menu Icon Styling */
+div[data-testid="stHorizontalBlock"] svg {
+    color: #ffffff !important;
+}
+
+/* 🌟 Title Styling Inside Menu */
+div[data-testid="stHorizontalBlock"] h1 {
+    font-size: 22px !important;
+    color: #ffffff !important;
+    font-weight: bold !important;
+}
+
+/* 🌟 Title Styling */
+h1 {
+    color: #f1f1f1;
+    font-size: 42px;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.7);
+    margin-bottom: 20px;
+}
+
+/* 🌟 Input Box Styling */
+input[type="text"] {
+    background-color: transparent;
+    color: #000;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 12px;
+    width: 100%;
+    box-sizing: border-box;
+    outline: none;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+}
+
+/* 🌟 Input Box Hover Effect */
+input[type="text"]:hover {
+    border-color: #1e90ff;
+}
+
+/* 🌟 Paragraph Styling */
+p {
+    color: #ffffff;
+    font-size: 18px;
+}
+
+/* 🌟 Button Styling */
+.stButton > button {
+    background-color: transparent;
+    color: #ffffff;
+    border: 2px solid white;
+    border-radius: 8px;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    cursor: pointer;
+}
+
+/* 🌟 Button Hover Effect */
+.stButton > button:hover {
+    background-color: #1e90ff;
+    transform: scale(1.05);
+    border-color: #000;
+}
+
+/* 🌟 Column Styling */
+[data-testid="column"] {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.3);
+    backdrop-filter: blur(8px);
+}
+
+/* 🌟 Success Messages Styling */
+div[data-testid="stNotification"] {
+    background-color: rgba(30, 144, 255, 0.1);
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* 🌟 Metric Box Styling */
+div[data-testid="metric-container"] {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.3);
+    backdrop-filter: blur(8px);
+}
