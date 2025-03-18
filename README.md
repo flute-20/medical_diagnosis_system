@@ -1,3 +1,8 @@
+project is deployed on streamlit the link is provided below 
+
+link = 'https://medicaldiagnosis-multidiseasepredictive-system.streamlit.app/'
+search this url in chrome you will see the application.
+
 This project is a Machine Learning-based Medical Diagnosis System that predicts the likelihood of multiple diseases based on user input parameters. The system is built using Python, Streamlit, and scikit-learn. It includes models for predicting diseases like:
 
 Diabetes
@@ -37,7 +42,7 @@ Clone the Repository
 bash
 Copy
 Edit
-git clone https://github.com/flute-20/Medical_Diagnosis.git
+git clone https://github.com/flute-20/medical_diagnosis_system.git
 Create a Virtual Environment
 bash
 Copy
