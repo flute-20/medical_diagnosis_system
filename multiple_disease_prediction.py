@@ -286,7 +286,7 @@ if selected == 'Parkinson Disease Prediction':
         
         scaler = pickle.load(open('parkin_scaler.sav' , 'rb'))
 
-        input_data = ([[gender , age , smoking , yellow_fingers , anxiety , peer_pressure , chronic_disease , fatigue , allergy , wheezing , alcohol_consuming , coughing , shortness_of_breath , swallowing_difficulty , chestpain]])
+        input_data = ([[mdvp_fo , mdvp_fhi , mdvp_flo , mdvp_jitter , mdvp_jitter_abs , mdvp_rap , mdvp_ppq , jitter_ddp , mdvp_shimmer , mdvp_shimmer_db , shimmer_apq3 , shimmer_apq5 , mdvp_apq , shimmer_dda , nhr , hnr , rpde , dfa , spread1 , spread2 , d2 , ppe]])
         
         std_data = scaler.transform(input_data)
 
